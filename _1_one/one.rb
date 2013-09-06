@@ -8,7 +8,11 @@ class Foo
   binding.pry
 end
 
+class Baz < Foo
+end
+
 foo = Foo.new
+baz = Baz.new
 
 binding.pry
 
